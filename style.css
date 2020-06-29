@@ -31,6 +31,7 @@ p{
     padding-right: 200px;
     width: 600px;
     margin-top: 40px;
+    display: inline;
 }
 #ssal{
     float: left;
@@ -80,6 +81,61 @@ section{
 {
     padding-left: 400px;
     width: 600px;
+    
+
+}
+#experience{
+    padding-top: 100px;
+}
+.inline{
+    position: relative;
+    top: 60px;
+    
+}
+.shadowclass{
+    box-shadow: 10px 10px 40px gray;
+    height: 400px;
+}
+#ssak{
+    float: right;
+    
+    width: 450px;
+    padding: 50px;
+    margin-top: 40px;
+    display: inline;
+    margin-right: 300px;
+    margin-bottom: 100px;
+    border-radius: 5px;
+    border-left: 7px solid;
+    border-image: linear-gradient(360deg, blue,cyan);
+    border-image-slice: 1;
+}
+#ssli{
+    float: left;
+    margin-left: 300px;
+    width: 450px;
+    padding: 50px;
+    position: absolute;
+    top: 1557px;
+    margin-right: 300px;
+    margin-bottom: 100px;
+    border-radius: 5px;
+    border-left: 7px solid;
+    border-image: linear-gradient(3600deg, lightsalmon,tomato);
+    border-image-slice: 1;
+}
+#experience{
+    background-image: url(Images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+footer{
+    overflow: hidden;
+    height: 50px;
+    position: relative;
+    top: 50px;
+    width: 100%;
+    text-align: center;
     
 
 }
