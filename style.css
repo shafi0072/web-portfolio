@@ -1,3 +1,6 @@
+*{
+    
+}
 body{
     font-family: 'Krona One', sans-serif;
 }
@@ -8,4 +11,32 @@ h1{
 #name-highlight
 {
     color: orange;
+}
+.leftside
+{
+    width: 40%;
+    float: left;
+    padd
+}
+.leftside img{
+    width: 100%;
+}
+#ssa{
+    float: right;
+    padding-right: 100px;
+}
+#ssl{
+    padding-left: 100px;
+}
+#firstcontent
+{
+    
+    
+    background-image: url("Images/top-banner.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+section{
+    height: 700px;
 }
