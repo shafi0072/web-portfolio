@@ -1,7 +1,6 @@
-*{
-    
-}
+
 body{
+    margin: 0;
     font-family: 'Krona One', sans-serif;
 }
 h1{
@@ -23,10 +22,13 @@ h1{
 }
 #ssa{
     float: right;
-    padding-right: 100px;
+    padding-right: 200px;
+    width: 600px;
+    margin-top: 40px;
 }
 #ssl{
-    padding-left: 100px;
+    padding-left: 200px;
+    width: 600px;
 }
 #firstcontent
 {
@@ -38,5 +40,19 @@ h1{
     
 }
 section{
-    height: 700px;
+    height: 500px;
+}
+.Link_button{
+   text-decoration: none;
+   background-image: linear-gradient(lightsalmon, tomato);
+   padding: 10px 20px;
+   border-radius: 5px;
+   color: white;
+   font-weight: 700;
+   transition: 1s;
+   
+}
+.Link_button:hover{
+    border-radius: 60%;
+    background-image: linear-gradient(orange, tomato);  
 }
